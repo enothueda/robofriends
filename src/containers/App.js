@@ -24,8 +24,8 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 class App extends Component {
-
-	render() {
+	
+	render() {		
 		return <MainPage { ...this.props }/>
 	}
 }
